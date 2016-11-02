@@ -30,7 +30,7 @@ public class ServerThread  extends Thread{
             }
         }
         catch (IOException e) { // если клиент не отвечает, соединение с ним разрывается
-             System.err.println("Disconnect");
+             System.err.println("Disconnect!");
         }
         finally { disconnect(); // уничтожение потока
              }
